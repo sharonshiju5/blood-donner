@@ -23,8 +23,8 @@
                     <p>name</p>
                 </div>
                 <div class="subdiv">
-                    <input type="text" id="input">
-                    <span>hello</span>
+                    <input type="text" class="input" id="usr">
+                    <span id="usr-sp"></span>
                 </div>
             </div>
             <div class="divs">
@@ -32,8 +32,8 @@
                     <p>phone</p>
                 </div>
                 <div class="subdiv">
-                    <input type="number" id="input">
-                    <span>hello</span>
+                    <input type="number"class="input" id="ph">
+                    <span id="phno"></span>
                 </div>
             </div>
             <div class="divs">
@@ -41,7 +41,7 @@
                     <p>address</p>
                 </div>
                 <div class="subdiv">
-                    <input type="text" id="input">
+                    <input type="text" class="input" id="addr">
                     <span>hello</span>
                 </div>
             </div>
@@ -53,14 +53,14 @@
                     <p class="gender">male</p><input type="radio" value="male" name="gender" id="radio">
                     <p class="gender">female</p><input type="radio" value="female" name="gender" id="radio" >
                     <span>hello</span>
-                </div>
+                </div>3
             </div>
             <div class="divs">
-                  <div class="subdiv">
+                <div class="subdiv">
                     <p>bloud group</p>
                 </div>
                 <div class="subdiv">
-                    <select name="" id="">
+                    <select name="" id="" required>
                         <option value="">A+</option>
                         <option value="">A-</option>
                         <option value="">B+</option>
@@ -76,10 +76,11 @@
             <div class="divs">
                 <div class="subdiv"></div>
                 <div class="subdiv" id="flex">
-                    <button class="submit">submit</button>
+                    <button class="submit" onclick="submit()">submit</button>
                 </div>
             </div>
         </div>
     </div>
+    <script src="../js/add.js"></script>
 </body>
 </html>
