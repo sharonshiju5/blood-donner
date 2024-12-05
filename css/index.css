@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+
+.nav{
+    margin: 0;
+    height: 90px;
+    width: 100%;
+    background-color: #701c45;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    position: fixed;
+}
+.head{
+    /* background-color: beige; */
+    margin:0px 200px 0px;
+    width: 50%;
+}
+.head h1{
+    margin: 0;
+}
+a,p{
+    text-decoration: none;
+    color: #ffffff;
+}
+a p{
+    background-color: #ff6c0c;
+    padding: 15px 30px;
+    border-radius: 5px;
+    width: 80px;
+
+}
+a p:hover{
+    background-color: #ff6d0cd2;
+
+}
+.container{
+    /* position: relative; */
+    z-index: -1;
+    /* margin-top: 90px; */
+    width: 100%;
+    height: 730px;
+    background-color: #ff6c0c;
+    background-image: url("https://globalbloodfund.org/wp-content/uploads/2020/08/GBF-workbanner.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    
+}
+.table{
+    width: 85%;
+    /* height: 500px; */
+    margin-top: 150px;
+    /* background-color: #ff6c0c; */
+    color: #ffffff;
+}
+table{
+    width: 100%;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+th{
+    height: 40px;
+    /* text-align: start; */
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: 0px;
+    margin: 0;
+    background-color: #ffffff;
+    /* background-color: #ff6c0c; */
+}
+/* .edit{
+    background-color: green;
+}
+.del{
+    background-color:rgba(255, 15, 15, 0.823) ;
+} */

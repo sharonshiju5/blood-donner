@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+}
+.nav{
+    margin: 0;
+    height: 90px;
+    width: 100%;
+    background-color: #701c45;
+    margin-bottom: 39.8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.home{
+    margin-right: 200px;
+    background-color: chocolate;
+    padding:10px 50px 10px;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.container{
+    width: 100%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    background-image:url(../asset/d.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    width: 50%;
+    height: 600px;
+    margin-left: 250px;
+    border-radius: 20px;
+    /* margin-bottom: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d1177125;
+    text-transform: uppercase;
+    gap: 10px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.h2{
+    padding-top: 20px;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    color: rgba(22, 20, 20, 0.926);
+    font-family: 'Bebas Neue', sans-serif;
+
+}
+.divs{
+    /* background-color: brown; */
+    width: 100%;
+    height: 60px;
+    display: flex;
+
+
+}
+.subdiv{
+    width: 45%;
+    margin-left: 3%;
+    height: 60px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+p{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    color: aliceblue;
+    
+}
+.gender{
+    color: black;
+}
+#radio{
+    margin-right: 20px;
+}
+select{
+    height: 30px;
+    width: 50px;
+}
+#flex{
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit{
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #55c2da;
+}
+.submit:hover{
+    background-color:#04c9f6 ;
+}
