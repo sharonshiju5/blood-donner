@@ -61,11 +61,14 @@ a{
 
 
 }
+form{
+    width: 100%;
+}
 .subdiv{
-    width: 45%;
+    width: 50%;
     margin-left: 3%;
     height: 60px;
-    /* background-color: aquamarine; */
+    /* background-color: aquamarine;     */
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -90,7 +93,7 @@ p{
 }
 select{
     height: 30px;
-    width: 50px;
+    width: 60px;
 }
 #flex{
     /* width: 100%; */

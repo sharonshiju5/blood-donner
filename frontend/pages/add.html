@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doner</title>
+    <link rel="stylesheet" href="../css/add.css">
+    <link rel="icon" href="./asset/blood-donation.png">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <a href="../index.html"><div class="home">home
+
+            </div></a>
+        </div>
+        <div class="card">
+            <div class="h2">
+                <h1>registration form</h1>
+            </div>
+            <form action="/submit" method="post">
+                <div class="divs">
+                    <div class="subdiv">
+                        <p>name</p>
+                    </div>
+                    <div class="subdiv">
+                        <input type="text" name="name" class="input" id="usr" required>
+                        <span id="usr-sp"></span>
+                    </div>
+                </div>
+                <div class="divs">
+                    <div class="subdiv">
+                        <p>phone</p>
+                    </div>
+                    <div class="subdiv">
+                        <input type="number" name="phone" class="input" id="ph" required>
+                        <span id="phno"></span>
+                    </div>
+                </div>
+                <div class="divs">
+                    <div class="subdiv">
+                        <p>address</p>
+                    </div>
+                    <div class="subdiv">
+                        <input type="text" name="address" class="input" id="addr" required>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="divs">
+                    <div class="subdiv">
+                        <p>gender</p>
+                    </div>
+                    <div class="subdiv">
+                        <p class="gender">male</p><input type="radio" required value="male" name="gender" id="radio">
+                        <p class="gender">female</p><input type="radio" value="female" name="gender" id="radio" >
+                        <p class="gender">others</p><input type="radio" value="others" name="gender" id="radio" >
+                        <span></span>
+                    </div>
+                </div>
+                <div class="divs">
+                    <div class="subdiv">
+                        <p>bloud group</p>
+                    </div>
+                    <div class="subdiv">
+                        <select name="blood" id="blood" required>
+                            <option value="" disabled>select</option>
+                            <option value="A+">A+</option>
+                            <option value="A-">A-</option>
+                            <option value="B+">B+</option>
+                            <option value="B-">B-</option>
+                            <option value="AB+">AB+</option>
+                            <option value="AB-">AB-</option>
+                            <option value="o+">O+</option>
+                            <option value="o-">0-</option>
+                        </select>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="divs">
+                    <div class="subdiv"></div>
+                    <div class="subdiv" id="flex">
+                        <button class="submit">submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../js/add.js"></script>
+</body>
+</html>
